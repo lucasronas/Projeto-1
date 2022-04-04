@@ -1,0 +1,135 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: #1d323633;
+}
+
+.main-header,
+.img-content,
+.text-content {
+    margin-bottom: 25px;
+}
+
+.main-header {
+    background-image: url(/asset/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    height: 500px;
+}
+
+header {
+    border-top: 1px solid transparent;
+}
+
+.main-header nav ul {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.main-header nav li {
+    list-style: none;
+    background-color: #22212133;
+    border: 2px solid #ffffff66;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 12px;
+}
+
+.main-header nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main-header nav li:hover {
+    background-color: #80d8ee33;
+}
+
+.main-title {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.main-title h1 {
+    color: white;
+    text-shadow: 3px 2px 2px black;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.main-title p {
+    display: inline-block;
+    border-bottom: 1px solid #f5f5f5b7;
+    background-color: #3b393988;
+    padding: 15px;
+    text-shadow: 1px 1px 5px white;
+}
+
+.main-content {
+    width: 80%;
+    margin: auto;
+}
+
+.img-content {
+    background-color: white;
+    padding: 10px;
+    overflow: auto;
+}
+
+.img {
+    width: 32%;
+    float: left;
+}
+
+.img img {
+    width: 100%;
+    display: block;
+}
+
+.img-1,
+.img-2 {
+    margin-right: 2%;
+}
+
+.img p {
+    color: white;
+    margin: 0%;
+    background-color: #000000a1;
+    padding: 15px;
+    text-transform: uppercase;
+    text-shadow: 5px 3px 5px black;
+}
+
+.text-content {
+    background-color: white;
+    padding: 15px;
+}
+
+.text-content article h2 {
+    padding: 12px;
+    background-color: #80808059;
+    border-bottom: 2px solid #504e4e4d;
+}
+
+.main-footer {
+    background-color: #000000a1;
+}
+
+.main-footer p {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 5px 3px 5px black;
+    margin-bottom: 0;
+    margin-top: 0;
+}
